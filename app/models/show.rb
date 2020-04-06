@@ -7,7 +7,6 @@ class Show < ActiveRecord::Base
      self.actors.map do |a|
        a.full_name
      end
-
    end
 
   end
